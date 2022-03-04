@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	width: calc(100% - 400px);
+	min-height: calc(100vh - 40px);
+	background-color: black;
+	padding: 20px 200px;
+}
+
+.container {
+	width: 100%;
+	min-height: 100%;
+	background-color: turquoise;
+}
+
+h1 {
+	text-align: center;
+	line-height: 100px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.box {
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	justify-content: center;
+	align-content: center;
+	gap: 30px;
+}
+.boxes {
+	width: 250px;
+	height: 220px;
+	background-color: lightyellow;
+	text-align: center;
+	box-shadow: 5px 5px 5px 5px;	
+}
